@@ -1,3 +1,9 @@
-function message(){
-    document.getElementById('output').innerHTML=msg + "evemt";
+function message(msg){
+    document.getElementById('output').innerHTML=msg + " event";
+}
+
+function displayDate(){
+    document.getElementById("demo").innerHTML=Date()
+    displayDate:inline;
+    
 }
