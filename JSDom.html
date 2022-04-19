@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify the DOM</title>
+</head>
+ <header>Modify the DOM</header>
+
+<body>
+    <h1>Modify the DOM</h1>
+    <button onclick="document.getElementById('stuff').innerHTML = 'click first button';">First</button>
+
+    <button onclick="document.getElementById('stuff').innerHTML= 'click second button';">Second</button>
+
+    <button onclick="document.getElementById('stuff').innerHTML='click first button';">previous</button>
+    <p>This code shouldn't change.</p>
+    <p id="stuff">This will change.</p>
+    <p>This shouldn't change either.</p>
+</body>
+</html>
